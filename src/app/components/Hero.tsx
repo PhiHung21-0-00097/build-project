@@ -23,7 +23,7 @@ export default function Hero() {
             xmlns="http://www.w3.org/2000/svg"
           >
             <defs>
-              <linearGradient
+              {/* <linearGradient
                 id="illustration-02"
                 x1="-3.766"
                 y1="300.204"
@@ -33,7 +33,7 @@ export default function Hero() {
               >
                 <stop stopColor="#5D5DFF" stopOpacity=".01" />
                 <stop offset="1" stopColor="#5D5DFF" stopOpacity=".32" />
-              </linearGradient>
+              </linearGradient> */}
             </defs>
             <path
               fillRule="evenodd"

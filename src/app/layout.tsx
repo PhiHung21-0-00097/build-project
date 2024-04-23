@@ -2,17 +2,8 @@ import type { Metadata } from "next";
 import { Inter, Architects_Daughter } from "next/font/google";
 import "./globals.css";
 import "./style/style.css";
-import Header from "./components/Header";
-import Banner from "./components/Banner";
-import Features from "./components/Features";
-import Hero from "./components/Hero";
-import ModalVideo from "./components/ModalVideo";
-import NewLetter from "./components/NewLetter";
-import Illustration from "./components/Illustration";
-import Zigzag from "./components/Zigzag";
-import Testimonials from "./components/Testimonials";
-import Blocks from "./components/Blocks";
-import Footer from "./components/Footer";
+
+import Home from "./page";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -42,15 +33,7 @@ export default function RootLayout({
       <body
         className={`${inter.variable} ${architects_daughter.variable} font-inter antialiased bg-gray-900 text-gray-200 tracking-tight`}
       >
-        {" "}
-        <Header /> <Hero />
-        <Banner />
-        {/* <Blocks /> */}
-        {/* <ModalVideo /> */}
-        <Features /> <Zigzag />
-        <Testimonials />
-        <Illustration /> <NewLetter />
-        <Footer />
+        <Home />
       </body>
     </html>
   );
