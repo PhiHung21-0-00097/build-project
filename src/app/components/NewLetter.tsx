@@ -92,7 +92,12 @@ export const Newsletter = () => {
                   placeholder="Lời nhắn"
                   name="message"
                 ></textarea>
-                <input type="submit" value="Send" />
+                <Link
+                  className="btn text-white bg-purple-400 hover:bg-purple-700 w-full mb-4 sm:w-auto sm:mb-0"
+                  href="https://www.facebook.com/havan.nguyenthi.14"
+                >
+                  <button>Send</button>
+                </Link>
               </div>
               {/* Success message */}
               {/* <p className="text-center lg:text-left lg:absolute mt-2 opacity-75 text-sm">Thanks for subscribing!</p> */}
