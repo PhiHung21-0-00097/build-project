@@ -1,6 +1,27 @@
 import Link from "next/link";
+import emailjs from "@emailjs/browser";
+import React, { useRef } from "react";
 
-export default function Newsletter() {
+export const Newsletter = () => {
+  // const form = useRef();
+
+  // const sendEmail = (e) => {
+  //   e.preventDefault();
+
+  //   emailjs
+  //     .sendForm("service_nujsotm", "template_7flw2o2", form.current, {
+  //       publicKey: "ZbgVCJ55zpZ2FSCcf",
+  //     })
+  //     .then(
+  //       () => {
+  //         console.log("SUCCESS!");
+  //         console.log("message sent");
+  //       },
+  //       (error) => {
+  //         console.log("FAILED...", error.text);
+  //       }
+  //     );
+  // };
   return (
     <section>
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
@@ -44,7 +65,7 @@ export default function Newsletter() {
 
           <div className="relative flex flex-col lg:flex-row justify-between items-center">
             {/* CTA content */}
-            <div className="mb-6 lg:mr-16 lg:mb-0 text-center lg:text-left lg:w-1/2">
+            <div className="mb-6 lg:mr-16 lg:mb-0 text-center lg:text-left ">
               <h3 className="h3 text-white mb-2">Liên hệ với tôi</h3>
               <p className="text-purple-200 text-lg">
                 Nhanh tay để có những kiểu tóc thật ưng ý nhé ~
@@ -52,20 +73,26 @@ export default function Newsletter() {
             </div>
 
             {/* CTA form */}
-            <form className="w-full lg:w-1/2">
+            <form>
               <div className="flex flex-col sm:flex-row justify-center max-w-xs mx-auto sm:max-w-md lg:max-w-none">
                 <input
-                  type="email"
+                  type="text"
                   className="w-full appearance-none bg-purple-700 border border-purple-500 focus:border-purple-300 rounded-sm px-4 py-3 mb-2 sm:mb-0 sm:mr-2 text-white placeholder-purple-400"
-                  placeholder="Your best email…"
-                  aria-label="Your best email…"
+                  placeholder="84+"
+                  name="from_phone"
                 />
-                <Link
-                  className="btn text-purple-600 bg-purple-100 hover:bg-white shadow"
-                  href="#0"
-                >
-                  Subscribe
-                </Link>
+                <input
+                  type="text"
+                  className="w-full appearance-none bg-purple-700 border border-purple-500 focus:border-purple-300 rounded-sm px-4 py-3 mb-2 sm:mb-0 sm:mr-2 text-white placeholder-purple-400"
+                  placeholder="Họ-Tên"
+                  name="user_name"
+                />
+                <textarea
+                  className="w-full appearance-none bg-purple-700 border border-purple-500 focus:border-purple-300 rounded-sm px-4 py-3 mb-2 sm:mb-0 sm:mr-2 text-white placeholder-purple-400"
+                  placeholder="Lời nhắn"
+                  name="message"
+                ></textarea>
+                <input type="submit" value="Send" />
               </div>
               {/* Success message */}
               {/* <p className="text-center lg:text-left lg:absolute mt-2 opacity-75 text-sm">Thanks for subscribing!</p> */}
@@ -75,4 +102,4 @@ export default function Newsletter() {
       </div>
     </section>
   );
-}
+};

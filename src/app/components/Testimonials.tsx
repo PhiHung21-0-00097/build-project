@@ -12,9 +12,9 @@ export default function Testimonials() {
         <div className="py-12 md:py-20 border-t border-gray-800">
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2 mb-4">Feedback của khách hàng</h2>
+            <h2 className="h2 mb-4">Tận tình & Tỉ mỉ</h2>
             <p className="text-xl text-gray-400">
-              - Sự quan tâm của mọi người -{" "}
+              - Mỗi khách hàng là một viên gạch xây dựng nên thương hiệu -{" "}
             </p>
           </div>
 

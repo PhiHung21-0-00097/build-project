@@ -4,12 +4,13 @@ import Banner from "./components/Banner";
 import Features from "./components/Features";
 import Hero from "./components/Hero";
 import ModalVideo from "./components/ModalVideo";
-import NewLetter from "./components/NewLetter";
+
 import Illustration from "./components/Illustration";
 import Zigzag from "./components/Zigzag";
 import Testimonials from "./components/Testimonials";
 import Blocks from "./components/Blocks";
 import Footer from "./components/Footer";
+import { Newsletter } from "./components/NewLetter";
 export default function Home() {
   return (
     <>
@@ -17,12 +18,15 @@ export default function Home() {
         <Header />
         <Hero />
         {/* <Banner /> */}
-        {/* <Blocks /> */}
+
         {/* <ModalVideo /> */}
-        <Features /> <Zigzag />
+        <Features />
+        <Zigzag />
+        <Blocks />
         <Testimonials />
+
         <Illustration />
-         <NewLetter />
+        <Newsletter />
         <Footer />
         {/* // <main className="flex min-h-screen flex-col items-center justify-between p-24">
     //   <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
