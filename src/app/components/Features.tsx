@@ -5,12 +5,9 @@ export default function Features() {
         <div className="py-12 md:py-20">
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2 mb-4">
-              The majority our customers do not understand their workflows.
-            </h2>
+            <h2 className="h2 mb-4">Dịch vụ</h2>
             <p className="text-xl text-gray-400">
-              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-              officia deserunt mollit anim id est laborum.
+              - Khẳng định phong cách phái mạnh -
             </p>
           </div>
 
@@ -51,11 +48,9 @@ export default function Features() {
                   strokeWidth="2"
                 />
               </svg>
-              <h4 className="h4 mb-2">Instant Features</h4>
+              <h4 className="h4 mb-2">Cắt tóc</h4>
               <p className="text-lg text-gray-400 text-center">
-                Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                cupidatat.
+                Cắt tóc chuyên nghiệp chỉ từ 30.000 VND - 50.000 VND
               </p>
             </div>
 
@@ -92,11 +87,9 @@ export default function Features() {
                   strokeLinecap="square"
                 />
               </svg>
-              <h4 className="h4 mb-2">Instant Features</h4>
+              <h4 className="h4 mb-2">Cạo râu</h4>
               <p className="text-lg text-gray-400 text-center">
-                Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                cupidatat.
+                Chăm sóc và cạo râu với giá 50.000 VND
               </p>
             </div>
 
@@ -144,11 +137,9 @@ export default function Features() {
                   />
                 </g>
               </svg>
-              <h4 className="h4 mb-2">Instant Features</h4>
+              <h4 className="h4 mb-2">Cạo mặt</h4>
               <p className="text-lg text-gray-400 text-center">
-                Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                cupidatat.
+                Cạo mặt sạch sẽ, láng mịn 20.000 VND
               </p>
             </div>
 
@@ -189,11 +180,9 @@ export default function Features() {
                   />
                 </g>
               </svg>
-              <h4 className="h4 mb-2">Instant Features</h4>
+              <h4 className="h4 mb-2">Gội đầu</h4>
               <p className="text-lg text-gray-400 text-center">
-                Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                cupidatat.
+                Gọi đầu thư giãn chỉ với giá 30.000 VND
               </p>
             </div>
 

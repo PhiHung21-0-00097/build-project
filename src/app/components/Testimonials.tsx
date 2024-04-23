@@ -14,9 +14,7 @@ export default function Testimonials() {
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
             <h2 className="h2 mb-4">Feedback của khách hàng</h2>
             <p className="text-xl text-gray-400">
-              Vitae aliquet nec ullamcorper sit amet risus nullam eget felis
-              semper quis lectus nulla at volutpat diam ut venenatis tellus—in
-              ornare.
+              - Sự quan tâm của mọi người -{" "}
             </p>
           </div>
 
@@ -52,8 +50,7 @@ export default function Testimonials() {
                 it before.
               </blockquote>
               <div className="text-gray-700 font-medium mt-6 pt-5 border-t border-gray-700">
-                <cite className="text-gray-200 not-italic">Anastasia Dan</cite>{" "}
-                -{" "}
+                <cite className="text-gray-200 not-italic">Tiểu Hổ</cite> -{" "}
                 <Link
                   className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out"
                   href="#0"
@@ -94,8 +91,7 @@ export default function Testimonials() {
                 it before.
               </blockquote>
               <div className="text-gray-700 font-medium mt-6 pt-5 border-t border-gray-700">
-                <cite className="text-gray-200 not-italic">Anastasia Dan</cite>{" "}
-                -
+                <cite className="text-gray-200 not-italic">Gia Huy</cite> -
                 <Link
                   className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out"
                   href="#0"
@@ -136,8 +132,7 @@ export default function Testimonials() {
                 it before.
               </blockquote>
               <div className="text-gray-700 font-medium mt-6 pt-5 border-t border-gray-700">
-                <cite className="text-gray-200 not-italic">Anastasia Dan</cite>{" "}
-                -{" "}
+                <cite className="text-gray-200 not-italic">Anh Vinh</cite> -{" "}
                 <Link
                   className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out"
                   href="#0"
