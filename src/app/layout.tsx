@@ -1,8 +1,31 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Inter, Architects_Daughter } from "next/font/google";
 import "./globals.css";
+import "./style/style.css";
+import Header from "./components/Header";
+import Banner from "./components/Banner";
+import Features from "./components/Features";
+import Hero from "./components/Hero";
+import ModalVideo from "./components/ModalVideo";
+import NewLetter from "./components/NewLetter";
+import Illustration from "./components/Illustration";
+import Zigzag from "./components/Zigzag";
+import Testimonials from "./components/Testimonials";
+import Blocks from "./components/Blocks";
+import Footer from "./components/Footer";
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Inter({
+  subsets: ["latin"],
+  variable: "--font-inter",
+  display: "swap",
+});
+
+const architects_daughter = Architects_Daughter({
+  subsets: ["latin"],
+  variable: "--font-architects-daughter",
+  weight: "400",
+  display: "swap",
+});
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -16,7 +39,19 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body
+        className={`${inter.variable} ${architects_daughter.variable} font-inter antialiased bg-gray-900 text-gray-200 tracking-tight`}
+      >
+        {" "}
+        <Header /> <Hero />
+        <Banner />
+        {/* <Blocks /> */}
+        {/* <ModalVideo /> */}
+        <Features /> <Zigzag />
+        <Testimonials />
+        <Illustration /> <NewLetter />
+        <Footer />
+      </body>
     </html>
   );
 }
