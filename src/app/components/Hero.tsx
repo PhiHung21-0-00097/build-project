@@ -1,7 +1,7 @@
 import VideoThumb from "@/public/images/hero-image-01.jpg";
 
 import Image from "next/image";
-import bg from "@/../public/images/bg-slider.jpg";
+import bg from "@/../public/images/bg-slider.webp";
 import Link from "next/link";
 export default function Hero() {
   return (

@@ -1,5 +1,5 @@
 import Image from "next/image";
-import pp from "../../../public/images/people-1.jpg";
+import pp from "../../../public/images/people-1.webp";
 export default function Blocks() {
   return (
     <section>

@@ -1,8 +1,8 @@
 import Image from "next/image";
 
-import k1 from "@/../public/images/k-1.jpg";
-import k2 from "@/../public/images/k-2.jpg";
-import k3 from "@/../public/images/k-3.jpg";
+import k1 from "@/../public/images/k-1.webp";
+import k2 from "@/../public/images/k-2.webp";
+import k3 from "@/../public/images/k-3.webp";
 import Link from "next/link";
 
 export default function Testimonials() {
