@@ -18,11 +18,7 @@ export default function Footer() {
                   <Image className="lg:w-[400px]" src={logo} alt="" />
                 </Link>
               </div>
-              <div className="text-gray-400">
-                Lorem ipsum is placeholder text commonly used in the graphic,
-                print, and publishing industries for previewing layouts and
-                visual mockups.
-              </div>
+              <div className="text-gray-400">PHI HÙNG DESIGN</div>
             </div>
 
             {/* 2nd, 3rd and 4th blocks */}
