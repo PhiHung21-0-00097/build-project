@@ -221,11 +221,7 @@ export default function Features() {
                 </g>
               </svg>
               <h4 className="h4 mb-2">Instant Features</h4>
-              <p className="text-lg text-gray-400 text-center">
-                Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                cupidatat.
-              </p>
+              <p className="text-lg text-gray-400 text-center">...</p>
             </div>
 
             {/* 6th item */}
@@ -270,11 +266,7 @@ export default function Features() {
                 </g>
               </svg>
               <h4 className="h4 mb-2">Instant Features</h4>
-              <p className="text-lg text-gray-400 text-center">
-                Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                cupidatat.
-              </p>
+              <p className="text-lg text-gray-400 text-center">...</p>
             </div>
           </div>
         </div>

@@ -16,8 +16,7 @@ export default function Zigzag() {
             </div>
             <h1 className="h2 mb-4">Một sản phẩm - Một thương hiệu</h1>
             <p className="text-xl text-gray-400">
-              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-              officia deserunt mollit laborum — semper quis lectus nulla.
+              - Phong cách - Lịch lãm - Đa màu sắc -
             </p>
           </div>
 
@@ -47,7 +46,7 @@ export default function Zigzag() {
                   <div className="font-architects-daughter text-xl text-purple-600 mb-2">
                     More speed. Less spend
                   </div>
-                  <h3 className="h3 mb-3">Keep projects on schedule</h3>
+                  <h3 className="h3 mb-3">Undercut</h3>
                   <p className="text-xl text-gray-400 mb-4">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
@@ -62,7 +61,7 @@ export default function Zigzag() {
                       >
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
-                      <span>Duis aute irure dolor in reprehenderit</span>
+                      <span>Hiện đại</span>
                     </li>
                     <li className="flex items-center mb-2">
                       <svg
@@ -72,7 +71,7 @@ export default function Zigzag() {
                       >
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
-                      <span>Excepteur sint occaecat</span>
+                      <span>Phong cách</span>
                     </li>
                     <li className="flex items-center">
                       <svg
@@ -82,7 +81,7 @@ export default function Zigzag() {
                       >
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
-                      <span>Amet consectetur adipiscing elit</span>
+                      <span>Xu hướng</span>
                     </li>
                   </ul>
                 </div>
@@ -113,7 +112,7 @@ export default function Zigzag() {
                   <div className="font-architects-daughter text-xl text-purple-600 mb-2">
                     More speed. Less spend
                   </div>
-                  <h3 className="h3 mb-3">Keep projects on schedule</h3>
+                  <h3 className="h3 mb-3">Side part</h3>
                   <p className="text-xl text-gray-400 mb-4">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
@@ -128,7 +127,7 @@ export default function Zigzag() {
                       >
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
-                      <span>Duis aute irure dolor in reprehenderit</span>
+                      <span>Hiện đại</span>
                     </li>
                     <li className="flex items-center mb-2">
                       <svg
@@ -138,7 +137,7 @@ export default function Zigzag() {
                       >
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
-                      <span>Excepteur sint occaecat</span>
+                      <span>Phong cách</span>
                     </li>
                     <li className="flex items-center">
                       <svg
@@ -148,7 +147,7 @@ export default function Zigzag() {
                       >
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
-                      <span>Amet consectetur adipiscing elit</span>
+                      <span>Xu hướng</span>
                     </li>
                   </ul>
                 </div>
@@ -179,7 +178,7 @@ export default function Zigzag() {
                   <div className="font-architects-daughter text-xl text-purple-600 mb-2">
                     More speed. Less spend
                   </div>
-                  <h3 className="h3 mb-3">Keep projects on schedule</h3>
+                  <h3 className="h3 mb-3">Mullet</h3>
                   <p className="text-xl text-gray-400 mb-4">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
@@ -194,7 +193,7 @@ export default function Zigzag() {
                       >
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
-                      <span>Duis aute irure dolor in reprehenderit</span>
+                      <span>Hiện đại</span>
                     </li>
                     <li className="flex items-center mb-2">
                       <svg
@@ -204,7 +203,7 @@ export default function Zigzag() {
                       >
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
-                      <span>Excepteur sint occaecat</span>
+                      <span>Phong cách</span>
                     </li>
                     <li className="flex items-center">
                       <svg
@@ -214,7 +213,7 @@ export default function Zigzag() {
                       >
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
-                      <span>Amet consectetur adipiscing elit</span>
+                      <span>Xu hướng</span>
                     </li>
                   </ul>
                 </div>
