@@ -1,10 +1,8 @@
-import Image from "next/image";
 import Header from "./components/Header";
 import Banner from "./components/Banner";
 import Features from "./components/Features";
 import Hero from "./components/Hero";
 import ModalVideo from "./components/ModalVideo";
-
 import Illustration from "./components/Illustration";
 import Zigzag from "./components/Zigzag";
 import Testimonials from "./components/Testimonials";
@@ -24,7 +22,6 @@ export default function Home() {
         <Zigzag />
         <Blocks />
         <Testimonials />
-
         <Illustration />
         <Newsletter />
         <Footer />
