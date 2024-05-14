@@ -20,8 +20,9 @@ export default function Home() {
         {/* <ModalVideo /> */}
         <Features />
         <Zigzag />
-        <Blocks />
+
         <Testimonials />
+        <Blocks />
         <Illustration />
         <Newsletter />
         <Footer />

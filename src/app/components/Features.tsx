@@ -220,8 +220,10 @@ export default function Features() {
                   />
                 </g>
               </svg>
-              <h4 className="h4 mb-2">Instant Features</h4>
-              <p className="text-lg text-gray-400 text-center">...</p>
+              <h4 className="h4 mb-2">Uốn tóc</h4>
+              <p className="text-lg text-gray-400 text-center">
+                250.000 VND - 400.000 VND
+              </p>
             </div>
 
             {/* 6th item */}
@@ -265,8 +267,10 @@ export default function Features() {
                   />
                 </g>
               </svg>
-              <h4 className="h4 mb-2">Instant Features</h4>
-              <p className="text-lg text-gray-400 text-center">...</p>
+              <h4 className="h4 mb-2">Nhuộm tóc</h4>
+              <p className="text-lg text-gray-400 text-center">
+                200.000 VND - 800.000 VND
+              </p>
             </div>
           </div>
         </div>

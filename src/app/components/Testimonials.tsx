@@ -11,7 +11,7 @@ export default function Testimonials() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="py-12 md:py-20 border-t border-gray-800">
           {/* Section header */}
-          <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
+          <div className="max-w-3xl mx-auto text-center ">
             <h2 className="h2 mb-4">Tận tình & Tỉ mỉ</h2>
             <p className="text-xl text-gray-400">
               - Mỗi khách hàng là một viên gạch xây dựng nên thương hiệu -{" "}
@@ -19,8 +19,8 @@ export default function Testimonials() {
           </div>
 
           {/* Testimonials */}
-          <div className="max-w-sm mx-auto grid gap-8 lg:grid-cols-3 lg:gap-6 items-start lg:max-w-none">
-            {/* 1st testimonial */}
+          {/* <div className="max-w-sm mx-auto grid gap-8 lg:grid-cols-3 lg:gap-6 items-start lg:max-w-none">
+
             <div
               className="flex flex-col h-full p-6 bg-gray-800"
               data-aos="fade-up"
@@ -60,7 +60,7 @@ export default function Testimonials() {
               </div>
             </div>
 
-            {/* 2nd testimonial */}
+           
             <div
               className="flex flex-col h-full p-6 bg-gray-800"
               data-aos="fade-up"
@@ -101,7 +101,7 @@ export default function Testimonials() {
               </div>
             </div>
 
-            {/* 3rd testimonial */}
+
             <div
               className="flex flex-col h-full p-6 bg-gray-800"
               data-aos="fade-up"
@@ -141,7 +141,7 @@ export default function Testimonials() {
                 </Link>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
