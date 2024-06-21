@@ -27,10 +27,6 @@ export const Newsletter = () => {
   //     );
   // };
 
-  const handleSubmit = (e: any) => {
-    e.preventDefault();
-    window.FB.CustomerChat.showDialog();
-  };
   return (
     <section>
       <div className="max-w-6xl mx-auto px-4 sm:px-6 py-5">
@@ -76,7 +72,7 @@ export const Newsletter = () => {
             </div>
 
             {/* CTA form */}
-            <form onSubmit={handleSubmit}>
+            <form>
               <div className="flex flex-col sm:flex-row justify-center max-w-xs mx-auto sm:max-w-md lg:max-w-none">
                 {/* <input
                   type="text"
