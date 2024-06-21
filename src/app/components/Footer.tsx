@@ -24,7 +24,6 @@ export default function Footer() {
             {/* 2nd, 3rd and 4th blocks */}
             <div className="md:col-span-8 lg:col-span-7 grid sm:grid-cols-3 gap-8">
               {/* 2nd block */}
-
               {/* 3rd block */}
               <div className="text-sm">
                 <h6 className="text-gray-200 font-medium mb-1">
@@ -37,6 +36,20 @@ export default function Footer() {
                       className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out"
                     >
                       Thứ 2 - CN: 8h AM - 18h PM
+                    </Link>
+                  </li>
+                </ul>
+              </div>
+              <div className="text-sm">
+                <h6 className="text-gray-200 font-medium mb-1">Địa chỉ:</h6>
+                <ul>
+                  <li className="mb-1">
+                    <Link
+                      href="/"
+                      className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out"
+                    >
+                      ĐT759, Phươc Bình, Phước Long, Bình Phước, Việt Nam
+                      <p>( Kế bên Điện Tử Nuyễn Nin )</p>
                     </Link>
                   </li>
                 </ul>
