@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import logo from "@/../public/images/logo.jpg";
+import logo from "@/public/images/logo.jpg";
 
 export default function Footer() {
   return (
@@ -44,11 +44,11 @@ export default function Footer() {
 
               {/* 4th block */}
               <div className="text-sm lg:text-center">
-                <h6 className="text-gray-200 font-medium mb-1">
+                <h6 className="text-gray-200 font-medium mb-1 flex justify-center">
                   Theo dõi chúng tôi
                 </h6>
-                <ul className="flex mb-4 md:order-1 md:ml-4 md:mb-0 items-start text-start justify-start">
-                  <li className="ml-4">
+                <ul className="flex justify-center">
+                  <li className="">
                     <Link
                       href="https://www.facebook.com/havan.nguyenthi.14"
                       className="flex justify-center items-center text-purple-600 bg-gray-800 hover:text-gray-100 hover:bg-purple-600 rounded-full transition duration-150 ease-in-out"

@@ -1,8 +1,8 @@
 import Image from "next/image";
 
-import k1 from "@/../public/images/k-1.webp";
-import k2 from "@/../public/images/k-2.webp";
-import k3 from "@/../public/images/k-3.webp";
+import k1 from "@/public/images/k-1.webp";
+import k2 from "@/public/images/k-2.webp";
+import k3 from "@/public/images/k-3.webp";
 
 export default function Zigzag() {
   return (

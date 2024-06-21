@@ -1,8 +1,12 @@
+"use client";
 import Link from "next/link";
 import emailjs from "@emailjs/browser";
-import React, { useRef } from "react";
+import React, { useState } from "react";
 
 export const Newsletter = () => {
+  const [name, setName] = useState("");
+  const [phone, setPhone] = useState("");
+  const [desc, setDesc] = useState("");
   // const form = useRef();
 
   // const sendEmail = (e) => {
@@ -22,19 +26,18 @@ export const Newsletter = () => {
   //       }
   //     );
   // };
+
+  const handleSubmit = (e: any) => {
+    e.preventDefault();
+    window.FB.CustomerChat.showDialog();
+  };
   return (
     <section>
-      <div className="max-w-6xl mx-auto px-4 sm:px-6">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 py-5">
         {/* CTA box */}
-        <div
-          className="relative bg-purple-600 py-10 px-8 md:py-16 md:px-12"
-          data-aos="fade-up"
-        >
+        <div className="relative bg-purple-600 py-10 px-8 md:py-16 md:px-12">
           {/* Background illustration */}
-          <div
-            className="absolute right-0 top-0 -ml-40 pointer-events-none"
-            aria-hidden="true"
-          >
+          <div className="absolute right-0 top-0 -ml-40 ">
             <svg
               width="238"
               height="110"
@@ -66,37 +69,43 @@ export const Newsletter = () => {
           <div className="relative flex flex-col lg:flex-row justify-between items-center">
             {/* CTA content */}
             <div className="mb-6 lg:mr-16 lg:mb-0 text-center lg:text-left ">
-              <h3 className="h3 text-white mb-2">Liên hệ với tôi</h3>
+              <h3 className="h3 text-white mb-2">Liên hệ với Quỳnh Đơn</h3>
               <p className="text-purple-200 text-lg">
                 Nhanh tay để có những kiểu tóc thật ưng ý nhé ~
               </p>
             </div>
 
             {/* CTA form */}
-            <form>
+            <form onSubmit={handleSubmit}>
               <div className="flex flex-col sm:flex-row justify-center max-w-xs mx-auto sm:max-w-md lg:max-w-none">
-                <input
+                {/* <input
                   type="text"
                   className="w-full appearance-none bg-purple-700 border border-purple-500 focus:border-purple-300 rounded-sm px-4 py-3 mb-2 sm:mb-0 sm:mr-2 text-white placeholder-purple-400"
                   placeholder="84+"
                   name="from_phone"
+                  value={phone}
+                  onChange={(e) => setPhone(e.target.value)}
                 />
                 <input
                   type="text"
                   className="w-full appearance-none bg-purple-700 border border-purple-500 focus:border-purple-300 rounded-sm px-4 py-3 mb-2 sm:mb-0 sm:mr-2 text-white placeholder-purple-400"
                   placeholder="Họ-Tên"
                   name="user_name"
+                  value={name}
+                  onChange={(e) => setName(e.target.value)}
                 />
                 <textarea
                   className="w-full appearance-none bg-purple-700 border border-purple-500 focus:border-purple-300 rounded-sm px-4 py-3 mb-2 sm:mb-0 sm:mr-2 text-white placeholder-purple-400"
                   placeholder="Lời nhắn"
                   name="message"
-                ></textarea>
+                  value={desc}
+                  onChange={(e) => setDesc(e.target.value)}
+                ></textarea> */}
                 <Link
                   className="btn text-white bg-purple-400 hover:bg-purple-700 w-full mb-4 sm:w-auto sm:mb-0"
                   href="https://www.facebook.com/havan.nguyenthi.14"
                 >
-                  <button>Send</button>
+                  <button type="submit">Liên hệ tại đây nhé~</button>
                 </Link>
               </div>
               {/* Success message */}
