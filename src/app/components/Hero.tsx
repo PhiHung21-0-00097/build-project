@@ -1,9 +1,17 @@
+"use client";
 import Image from "next/image";
 import bg from "@/public/images/bg-slider.webp";
-import Link from "next/link";
+
 import banner from "@/public/icons/banner.svg";
+import Link from "next/link";
 
 export default function Hero() {
+  const scrollContact = () => {
+    const contact = document.getElementById("lienHe");
+    if (contact) {
+      contact.scrollIntoView({ behavior: "smooth" });
+    }
+  };
   return (
     <section>
       <div className="max-w-6xl mx-auto px-4 sm:px-6 relative">
@@ -18,7 +26,7 @@ export default function Hero() {
         </div>
 
         {/* Hero content */}
-        <div className="relative pt-28 lg:pt-32 pb-10 md:pt-40 md:pb-16">
+        <div className="relative">
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
             <h1 className="h1 mb-4" data-aos="fade-up">
@@ -35,8 +43,9 @@ export default function Hero() {
             <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center">
               <div data-aos="fade-up" data-aos-delay="400">
                 <Link
+                  href=""
                   className="btn text-white bg-purple-600 hover:bg-purple-700 w-full h-auto mb-4 sm:w-auto sm:mb-0"
-                  href="https://www.facebook.com/havan.nguyenthi.14"
+                  onClick={scrollContact}
                 >
                   Liên hệ qua Facebook Đơn nhé~
                 </Link>

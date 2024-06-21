@@ -4,9 +4,6 @@ import emailjs from "@emailjs/browser";
 import React, { useState } from "react";
 
 export const Newsletter = () => {
-  const [name, setName] = useState("");
-  const [phone, setPhone] = useState("");
-  const [desc, setDesc] = useState("");
   // const form = useRef();
 
   // const sendEmail = (e) => {
@@ -31,7 +28,10 @@ export const Newsletter = () => {
     <section>
       <div className="max-w-6xl mx-auto px-4 sm:px-6 py-5">
         {/* CTA box */}
-        <div className="relative bg-purple-600 py-10 px-8 md:py-16 md:px-12">
+        <div
+          id="lienHe"
+          className="relative bg-purple-600 py-10 px-8 md:py-16 md:px-12"
+        >
           {/* Background illustration */}
           <div className="absolute right-0 top-0 -ml-40 ">
             <svg

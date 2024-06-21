@@ -43,11 +43,11 @@ export default function Footer() {
               </div>
 
               {/* 4th block */}
-              <div className="text-sm lg:text-center">
-                <h6 className="text-gray-200 font-medium mb-1 flex justify-center">
+              <div className="text-sm lg:text-center justify-start">
+                <h6 className="text-gray-200 font-medium mb-1  justify-center">
                   Theo dõi chúng tôi
                 </h6>
-                <ul className="flex justify-center">
+                <ul className="flex justify-start md:justify-center">
                   <li className="">
                     <Link
                       href="https://www.facebook.com/havan.nguyenthi.14"

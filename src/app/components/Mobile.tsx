@@ -1,5 +1,4 @@
 "use client";
-
 import { useState, useRef, useEffect } from "react";
 import Link from "next/link";
 
@@ -35,6 +34,12 @@ export default function MobileMenu() {
     return () => document.removeEventListener("keydown", keyHandler);
   });
 
+  const scrollContact = () => {
+    const contact = document.getElementById("lienHe");
+    if (contact) {
+      contact.scrollIntoView({ behavior: "smooth" });
+    }
+  };
   return (
     <div className="md:hidden">
       {/* Hamburger button */}
@@ -61,7 +66,7 @@ export default function MobileMenu() {
       <nav
         id="mobile-nav"
         ref={mobileNav}
-        className="absolute top-full z-20 left-0 w-full px-4 sm:px-6 overflow-hidden transition-all duration-300 ease-in-out"
+        className="absolute top- z-20 left-0 w-full px-4 sm:px-6 overflow-hidden transition-all duration-300 ease-in-out"
         style={
           mobileNavOpen
             ? { maxHeight: mobileNav.current?.scrollHeight, opacity: 1 }
@@ -80,8 +85,9 @@ export default function MobileMenu() {
           </li> */}
           <li>
             <Link
-              href="https://www.facebook.com/havan.nguyenthi.14"
+              href=""
               className=" font-medium w-full inline-flex items-center justify-center border border-transparent px-4 py-2 my-2 rounded-sm text-white bg-purple-600 hover:bg-purple-700 transition duration-150 ease-in-out"
+              onClick={scrollContact}
             >
               Liên hệ qua Facebook Đơn nhé~
             </Link>
